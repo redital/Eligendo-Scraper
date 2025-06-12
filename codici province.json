@@ -1,0 +1,572 @@
+{
+    "PIEMONTE": [
+        {
+            "nome": "ALESSANDRIA",
+            "codice": 2,
+            "codice_regione": 1
+        },
+        {
+            "nome": "ASTI",
+            "codice": 7,
+            "codice_regione": 1
+        },
+        {
+            "nome": "BIELLA",
+            "codice": 96,
+            "codice_regione": 1
+        },
+        {
+            "nome": "CUNEO",
+            "codice": 27,
+            "codice_regione": 1
+        },
+        {
+            "nome": "NOVARA",
+            "codice": 52,
+            "codice_regione": 1
+        },
+        {
+            "nome": "TORINO",
+            "codice": 81,
+            "codice_regione": 1
+        },
+        {
+            "nome": "VERBANO-CUSIO-OSSOLA",
+            "codice": 102,
+            "codice_regione": 1
+        },
+        {
+            "nome": "VERCELLI",
+            "codice": 88,
+            "codice_regione": 1
+        }
+    ],
+    "VALLE D'AOSTA": [
+        {
+            "nome": "AOSTA",
+            "codice": 4,
+            "codice_regione": 2
+        }
+    ],
+    "LOMBARDIA": [
+        {
+            "nome": "BERGAMO",
+            "codice": 12,
+            "codice_regione": 3
+        },
+        {
+            "nome": "BRESCIA",
+            "codice": 15,
+            "codice_regione": 3
+        },
+        {
+            "nome": "COMO",
+            "codice": 24,
+            "codice_regione": 3
+        },
+        {
+            "nome": "CREMONA",
+            "codice": 26,
+            "codice_regione": 3
+        },
+        {
+            "nome": "LECCO",
+            "codice": 98,
+            "codice_regione": 3
+        },
+        {
+            "nome": "LODI",
+            "codice": 99,
+            "codice_regione": 3
+        },
+        {
+            "nome": "MANTOVA",
+            "codice": 45,
+            "codice_regione": 3
+        },
+        {
+            "nome": "MILANO",
+            "codice": 49,
+            "codice_regione": 3
+        },
+        {
+            "nome": "MONZA E DELLA BRIANZA",
+            "codice": 104,
+            "codice_regione": 3
+        },
+        {
+            "nome": "PAVIA",
+            "codice": 57,
+            "codice_regione": 3
+        },
+        {
+            "nome": "SONDRIO",
+            "codice": 77,
+            "codice_regione": 3
+        },
+        {
+            "nome": "VARESE",
+            "codice": 86,
+            "codice_regione": 3
+        }
+    ],
+    "TRENTINO-ALTO ADIGE": [
+        {
+            "nome": "BOLZANO",
+            "codice": 14,
+            "codice_regione": 4
+        },
+        {
+            "nome": "TRENTO",
+            "codice": 83,
+            "codice_regione": 4
+        }
+    ],
+    "VENETO": [
+        {
+            "nome": "BELLUNO",
+            "codice": 10,
+            "codice_regione": 5
+        },
+        {
+            "nome": "PADOVA",
+            "codice": 54,
+            "codice_regione": 5
+        },
+        {
+            "nome": "ROVIGO",
+            "codice": 71,
+            "codice_regione": 5
+        },
+        {
+            "nome": "TREVISO",
+            "codice": 84,
+            "codice_regione": 5
+        },
+        {
+            "nome": "VENEZIA",
+            "codice": 87,
+            "codice_regione": 5
+        },
+        {
+            "nome": "VERONA",
+            "codice": 89,
+            "codice_regione": 5
+        },
+        {
+            "nome": "VICENZA",
+            "codice": 90,
+            "codice_regione": 5
+        }
+    ],
+    "FRIULI-VENEZIA GIULIA": [
+        {
+            "nome": "GORIZIA",
+            "codice": 35,
+            "codice_regione": 6
+        },
+        {
+            "nome": "PORDENONE",
+            "codice": 93,
+            "codice_regione": 6
+        },
+        {
+            "nome": "TRIESTE",
+            "codice": 92,
+            "codice_regione": 6
+        },
+        {
+            "nome": "UDINE",
+            "codice": 85,
+            "codice_regione": 6
+        }
+    ],
+    "LIGURIA": [
+        {
+            "nome": "GENOVA",
+            "codice": 34,
+            "codice_regione": 7
+        },
+        {
+            "nome": "IMPERIA",
+            "codice": 37,
+            "codice_regione": 7
+        },
+        {
+            "nome": "LA SPEZIA",
+            "codice": 39,
+            "codice_regione": 7
+        },
+        {
+            "nome": "SAVONA",
+            "codice": 74,
+            "codice_regione": 7
+        }
+    ],
+    "EMILIA-ROMAGNA": [
+        {
+            "nome": "BOLOGNA",
+            "codice": 13,
+            "codice_regione": 8
+        },
+        {
+            "nome": "FERRARA",
+            "codice": 29,
+            "codice_regione": 8
+        },
+        {
+            "nome": "FORLI'-CESENA",
+            "codice": 32,
+            "codice_regione": 8
+        },
+        {
+            "nome": "MODENA",
+            "codice": 50,
+            "codice_regione": 8
+        },
+        {
+            "nome": "PARMA",
+            "codice": 56,
+            "codice_regione": 8
+        },
+        {
+            "nome": "PIACENZA",
+            "codice": 61,
+            "codice_regione": 8
+        },
+        {
+            "nome": "RAVENNA",
+            "codice": 66,
+            "codice_regione": 8
+        },
+        {
+            "nome": "REGGIO NELL'EMILIA",
+            "codice": 68,
+            "codice_regione": 8
+        },
+        {
+            "nome": "RIMINI",
+            "codice": 101,
+            "codice_regione": 8
+        }
+    ],
+    "TOSCANA": [
+        {
+            "nome": "AREZZO",
+            "codice": 5,
+            "codice_regione": 9
+        },
+        {
+            "nome": "FIRENZE",
+            "codice": 30,
+            "codice_regione": 9
+        },
+        {
+            "nome": "GROSSETO",
+            "codice": 36,
+            "codice_regione": 9
+        },
+        {
+            "nome": "LIVORNO",
+            "codice": 42,
+            "codice_regione": 9
+        },
+        {
+            "nome": "LUCCA",
+            "codice": 43,
+            "codice_regione": 9
+        },
+        {
+            "nome": "MASSA-CARRARA",
+            "codice": 46,
+            "codice_regione": 9
+        },
+        {
+            "nome": "PISA",
+            "codice": 62,
+            "codice_regione": 9
+        },
+        {
+            "nome": "PISTOIA",
+            "codice": 63,
+            "codice_regione": 9
+        },
+        {
+            "nome": "PRATO",
+            "codice": 100,
+            "codice_regione": 9
+        },
+        {
+            "nome": "SIENA",
+            "codice": 75,
+            "codice_regione": 9
+        }
+    ],
+    "UMBRIA": [
+        {
+            "nome": "PERUGIA",
+            "codice": 58,
+            "codice_regione": 10
+        },
+        {
+            "nome": "TERNI",
+            "codice": 80,
+            "codice_regione": 10
+        }
+    ],
+    "MARCHE": [
+        {
+            "nome": "ANCONA",
+            "codice": 3,
+            "codice_regione": 11
+        },
+        {
+            "nome": "ASCOLI PICENO",
+            "codice": 6,
+            "codice_regione": 11
+        },
+        {
+            "nome": "FERMO",
+            "codice": 105,
+            "codice_regione": 11
+        },
+        {
+            "nome": "MACERATA",
+            "codice": 44,
+            "codice_regione": 11
+        },
+        {
+            "nome": "PESARO E URBINO",
+            "codice": 59,
+            "codice_regione": 11
+        }
+    ],
+    "LAZIO": [
+        {
+            "nome": "FROSINONE",
+            "codice": 33,
+            "codice_regione": 12
+        },
+        {
+            "nome": "LATINA",
+            "codice": 40,
+            "codice_regione": 12
+        },
+        {
+            "nome": "RIETI",
+            "codice": 69,
+            "codice_regione": 12
+        },
+        {
+            "nome": "ROMA",
+            "codice": 70,
+            "codice_regione": 12
+        },
+        {
+            "nome": "VITERBO",
+            "codice": 91,
+            "codice_regione": 12
+        }
+    ],
+    "ABRUZZO": [
+        {
+            "nome": "CHIETI",
+            "codice": 23,
+            "codice_regione": 13
+        },
+        {
+            "nome": "L'AQUILA",
+            "codice": 38,
+            "codice_regione": 13
+        },
+        {
+            "nome": "PESCARA",
+            "codice": 60,
+            "codice_regione": 13
+        },
+        {
+            "nome": "TERAMO",
+            "codice": 79,
+            "codice_regione": 13
+        }
+    ],
+    "MOLISE": [
+        {
+            "nome": "CAMPOBASSO",
+            "codice": 19,
+            "codice_regione": 14
+        },
+        {
+            "nome": "ISERNIA",
+            "codice": 94,
+            "codice_regione": 14
+        }
+    ],
+    "CAMPANIA": [
+        {
+            "nome": "AVELLINO",
+            "codice": 8,
+            "codice_regione": 15
+        },
+        {
+            "nome": "BENEVENTO",
+            "codice": 11,
+            "codice_regione": 15
+        },
+        {
+            "nome": "CASERTA",
+            "codice": 20,
+            "codice_regione": 15
+        },
+        {
+            "nome": "NAPOLI",
+            "codice": 51,
+            "codice_regione": 15
+        },
+        {
+            "nome": "SALERNO",
+            "codice": 72,
+            "codice_regione": 15
+        }
+    ],
+    "PUGLIA": [
+        {
+            "nome": "BARI",
+            "codice": 9,
+            "codice_regione": 16
+        },
+        {
+            "nome": "BARLETTA-ANDRIA-TRANI",
+            "codice": 106,
+            "codice_regione": 16
+        },
+        {
+            "nome": "BRINDISI",
+            "codice": 16,
+            "codice_regione": 16
+        },
+        {
+            "nome": "FOGGIA",
+            "codice": 31,
+            "codice_regione": 16
+        },
+        {
+            "nome": "LECCE",
+            "codice": 41,
+            "codice_regione": 16
+        },
+        {
+            "nome": "TARANTO",
+            "codice": 78,
+            "codice_regione": 16
+        }
+    ],
+    "BASILICATA": [
+        {
+            "nome": "MATERA",
+            "codice": 47,
+            "codice_regione": 17
+        },
+        {
+            "nome": "POTENZA",
+            "codice": 64,
+            "codice_regione": 17
+        }
+    ],
+    "CALABRIA": [
+        {
+            "nome": "CATANZARO",
+            "codice": 22,
+            "codice_regione": 18
+        },
+        {
+            "nome": "COSENZA",
+            "codice": 25,
+            "codice_regione": 18
+        },
+        {
+            "nome": "CROTONE",
+            "codice": 97,
+            "codice_regione": 18
+        },
+        {
+            "nome": "REGGIO CALABRIA",
+            "codice": 67,
+            "codice_regione": 18
+        },
+        {
+            "nome": "VIBO VALENTIA",
+            "codice": 103,
+            "codice_regione": 18
+        }
+    ],
+    "SICILIA": [
+        {
+            "nome": "AGRIGENTO",
+            "codice": 1,
+            "codice_regione": 19
+        },
+        {
+            "nome": "CALTANISSETTA",
+            "codice": 18,
+            "codice_regione": 19
+        },
+        {
+            "nome": "CATANIA",
+            "codice": 21,
+            "codice_regione": 19
+        },
+        {
+            "nome": "ENNA",
+            "codice": 28,
+            "codice_regione": 19
+        },
+        {
+            "nome": "MESSINA",
+            "codice": 48,
+            "codice_regione": 19
+        },
+        {
+            "nome": "PALERMO",
+            "codice": 55,
+            "codice_regione": 19
+        },
+        {
+            "nome": "RAGUSA",
+            "codice": 65,
+            "codice_regione": 19
+        },
+        {
+            "nome": "SIRACUSA",
+            "codice": 76,
+            "codice_regione": 19
+        },
+        {
+            "nome": "TRAPANI",
+            "codice": 82,
+            "codice_regione": 19
+        }
+    ],
+    "SARDEGNA": [
+        {
+            "nome": "CAGLIARI",
+            "codice": 17,
+            "codice_regione": 20
+        },
+        {
+            "nome": "NUORO",
+            "codice": 53,
+            "codice_regione": 20
+        },
+        {
+            "nome": "ORISTANO",
+            "codice": 95,
+            "codice_regione": 20
+        },
+        {
+            "nome": "SASSARI",
+            "codice": 73,
+            "codice_regione": 20
+        }
+    ]
+}
