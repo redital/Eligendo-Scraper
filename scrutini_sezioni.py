@@ -21,7 +21,7 @@ headers = {
     # 'TE': 'trailers',
 }
 dominio = "https://eleapi.interno.gov.it"
-uri = "/siel/PX/scrutiniFI/DE/20250608/TE/09/RE/{:02d}/PR/{:03d}/CM/{:04d}/SZ/{:04d}"
+uri = "/siel/PX/scrutiniFI/DE/20250608/TE/09/PR/{:03d}/CM/{:04d}/SZ/{:04d}"
 url = dominio + uri
 
 save = True
@@ -71,14 +71,16 @@ for regione in (pbar:= tqdm(codici_province,"Regione")):
             for numero_sezione in elenco:
 
                 response = requests.get(
-                    url.format(numero_regione, numero_provincia, numero_comune, numero_sezione), headers=headers
+                    url.format(numero_provincia, numero_comune, numero_sezione), headers=headers
                 )
 
+                
                 
                 try:
                     data = response.json()
                 except:
-                    print(url.format(numero_regione, numero_provincia, numero_provincia))
+                    print("\n"*5)
+                    print(url.format(numero_provincia, numero_provincia))
                     print(response)
                     print(response.text)
                     exit()
@@ -86,8 +88,9 @@ for regione in (pbar:= tqdm(codici_province,"Regione")):
                     json_formatted_str = json.dumps(data, indent=4)
 
                     with open(
-                        "scrutini_comune_{}.json".format(
-                            ''.join(e for e in nome_comune.replace(" ","_") if e.isalnum())
+                        "scrutini_sezione_{}.json".format(
+                            numero_sezione
+                            #''.join(e for e in nome_comune.replace(" ","_") if e.isalnum())
                         ),
                         "w",
                         encoding="utf8",
